@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BBFB3F"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON1"
+        android:backgroundTint="#aaaaaa"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUTTON2"
+        android:backgroundTint="#cccccc"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUTTON3"
+            android:padding="30dp"
+            android:backgroundTint="#0000ff"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUTTON4"
+            android:paddingBottom="50dp"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="#ff0000"/>
+    </LinearLayout>
+    <TextView
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Mirim!"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:text="이지스퍼블리싱 - 웹페이지: http://easyspub.com, 전화번호: 325-1722, 이메일: easy@easyspub.co.kr"
+        android:autoLink="web|email|phone"/>
+</LinearLayout>

@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "My Application"
 include(":app")
 include(":andtest01")
+include(":andtest02")
