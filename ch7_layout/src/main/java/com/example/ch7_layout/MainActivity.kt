@@ -1,8 +1,8 @@
 package com.example.ch7_layout
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.example.ch7_layout.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
