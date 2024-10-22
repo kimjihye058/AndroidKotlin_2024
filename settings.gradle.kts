@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "AndPrj2"
 include(":app")
- 
+include(":andlayouttest2")
+include(":linlaytest4")
