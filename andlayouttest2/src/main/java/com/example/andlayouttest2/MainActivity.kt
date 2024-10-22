@@ -1,7 +1,6 @@
 package com.example.andlayouttest2
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.andlayouttest2.databinding.ActivityMainBinding
 
@@ -13,10 +12,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        /*  바인딩 사용 예   : bindig.id이름.XXX
         binding.btn.setOnClickListener {
-            var num = binding.edt.text.toString()
-            Toast.makeText(applicationContext, num, Toast.LENGTH_SHORT).show()
+            binding.txtResult.text = "계산결과"
         }
+       */
     }
 }
