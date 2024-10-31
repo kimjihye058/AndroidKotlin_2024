@@ -2,6 +2,15 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="and_cal_table">
+        <State />
+      </entry>
+      <entry key="and_grid">
+        <State />
+      </entry>
+      <entry key="andbmi">
+        <State />
+      </entry>
       <entry key="andlayouttest2">
         <State />
       </entry>
@@ -9,6 +18,9 @@
         <State />
       </entry>
       <entry key="linlaytest4">
+        <State />
+      </entry>
+      <entry key="tabletest">
         <State />
       </entry>
     </value>
